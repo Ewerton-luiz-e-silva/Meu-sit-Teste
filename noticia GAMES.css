@@ -1,0 +1,35 @@
+.game a img {
+    width: 150px;
+	height: 80px;
+}
+
+.game {
+	display: flex;
+	justify-content: center;
+}
+
+.game a {
+	margin: 30px;
+	text-align: center;
+}
+
+.game p {
+	margin-top: 2px;
+	color: #000000;
+}
+.game img {
+    width: 1000px;
+	height: 400px;
+    display: flex;
+	justify-content: center;
+}
+article {
+    width: 1000px;
+	height: 400px;
+}
+iframe {
+    width: 1000px;
+	height: 500px;
+    display: flex;
+	justify-content: center;
+}

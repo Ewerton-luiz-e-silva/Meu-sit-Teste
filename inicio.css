@@ -1,0 +1,160 @@
+html {
+	font-family: "helvetica neue", sans serif;
+}
+.nav {
+	border-bottom: solid 1px #000000;
+	text-align: right;
+	height: 60px;
+	line-height: 60px;
+}
+
+.container {
+	color: #000000;
+}
+
+.noticias {
+	background-color: #fff;
+}
+
+body {
+	background-color: #fff;
+}
+
+.menu {
+	margin: 0 30px 0 0;
+}
+.menu a {
+	clear: right;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 15px 15px 15px 15px;
+	margin: 0 10px;
+	line-height: 70px;
+}
+.menu a:hover {
+	background-color: #000000;
+	color: #fff;
+}
+label {
+	margin: 0 40px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	display: none;
+	width: 26px;
+	float: right;
+}
+#toggle {
+	display: none;
+}
+
+{
+	label {
+		display: block;
+		cursor: pointer;
+	}
+	.menu {
+		text-align: center;
+		width: 100%;
+		display: none;
+        position: static;
+	}
+	.menu a {
+		display: block;
+		border-bottom: solid 1px #6363ec;
+		margin: 0;
+		padding: 0;
+	}
+	.menu a:hover {
+		color:#069cca;
+		background-color: #888;
+	}
+
+	#toggle:checked + .menu {
+		display: block;
+	}
+}
+
+.social-links img {
+    height: 20px;
+	right: 100px; float:left;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.nova {
+background-color: #fff;
+}
+
+header li  a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%
+}
+
+.articles article {
+    width: 30%;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+footer img {
+	width: 50px;
+	height: 40px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+footer a {
+	margin: 30px;
+	text-align: center;
+}
+
+footer p {
+	margin-top: 2px;
+	color: #000000;
+}
